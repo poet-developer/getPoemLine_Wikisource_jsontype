@@ -20,6 +20,9 @@ from itertools import chain
 # %%
 !brew install wget
 # %%
+# Parsed from: https://dumps.wikimedia.org/kowikisource/20241101/kowikisource-20241101-pages-articles.xml.bz2
+# (Since Wikimedia dump files are periodically removed, this file may no longer be available.
+#  Use the latest dump file for parsing.)
 !wget https://dumps.wikimedia.org/kowikisource/20250401/kowikisource-20250401-pages-articles.xml.bz2
 
 # %%
